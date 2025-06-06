@@ -26,7 +26,7 @@ class MainCommands:
         keyboard = [
             [InlineKeyboardButton("🔍ШУКАЮ ПОПУТНИКА🚗", callback_data='option_1')],
             [InlineKeyboardButton("🔍ВІЗЬМУ ПОПУТНИКА. Я ВЛАСНИК АВТО🚗", callback_data='option_2')],
-            [InlineKeyboardButton("🚨ПОТРІБНО ЕВАКУЮВАТИСЯ📢", callback_data='option_3')]
+            [InlineKeyboardButton("🚨ПОТРІБНО ЕВАКУЮВАТИСЯ. Терміново!📢", callback_data='option_3')]
         ]
         reply_markup = InlineKeyboardMarkup(keyboard)
         update.message.reply_text('Яка ситуація відноситься до тебе? Будь ласка, оберіть опцію:', reply_markup=reply_markup)
