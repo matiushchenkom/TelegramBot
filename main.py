@@ -295,5 +295,5 @@ class Bot:
         self.updater.idle()
 
 if __name__ == '__main__':
-    bot = Bot("6843435565:AAGQ4dm9xaPsTd3eDo2ZtT7tRr8kPauZ99A")
+    bot = Bot("6843435565:AAGvaEOD_1E5gm4IhOD03Wwy6bS9lkhCxMI") #token
     bot.start()
